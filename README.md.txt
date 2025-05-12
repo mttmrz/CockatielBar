@@ -1,7 +1,7 @@
 per far partire il programma spostarsi in ~CockatielBarV1.0\Main\SfidaTerranova\CocktailDebacle\
 
 digitare docker-compose up --build
-
+N.B (è necessario un servizio Docker, es. Docker-Desktop)
 aspettare il completamento del compose--
 connettersi a http://localhost:4200/
 
