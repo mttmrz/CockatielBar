@@ -29,6 +29,9 @@ services:
       - CloudinarySettings__CloudName=djktp3ku2
       - CloudinarySettings__ApiKey=332575877395176
       - CloudinarySettings__ApiSecret=105JeKEUwf1gaish79CJer2Tmdg
+      - TranslatorService__SubscriptionKey=CoQ1z7mqjfLtdMzHdOF2RZb0CZwy2Pe63GqzpGbrjj1H69SNbH89JQQJ99BEAC5RqLJXJ3w3AAAbACOGGpeD
+      - TranslatorService__Endpoint=https://translator-cocktaildebacle.cognitiveservices.azure.com/
+      - TranslatorService__Region=westeurope
     depends_on:
       - sqlserver
     networks:
