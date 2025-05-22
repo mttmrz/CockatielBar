@@ -25,6 +25,7 @@ services:
       - "5052:5052"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+      - Jwt__Key=super-secret-key-that-is-long-enough-123456789012345
       - ConnectionStrings__DefaultConnection=Server=sql_server;Database=CocktailDb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=true;
       - CloudinarySettings__CloudName=djktp3ku2
       - CloudinarySettings__ApiKey=332575877395176
