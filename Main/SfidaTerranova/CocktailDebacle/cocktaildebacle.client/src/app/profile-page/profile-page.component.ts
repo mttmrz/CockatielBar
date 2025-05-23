@@ -200,6 +200,7 @@ export class ProfilePageComponent implements OnInit {
       if (currentUser) {
         this.isLoggedIn = true;
         if ((this.username === currentUser.userName) || (currentUser.userName && this.username === null)) {
+          await this.GetFollowingCount(currentUser!.id as number);
           this.isCurrentUser = true;
         } else {
           this.isCurrentUser = false;
