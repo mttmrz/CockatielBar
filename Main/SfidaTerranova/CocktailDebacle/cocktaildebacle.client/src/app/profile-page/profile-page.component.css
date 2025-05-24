@@ -31,7 +31,7 @@ body {
   align-items: center; 
   height: 100vh; 
   overflow-y: auto;
-  background-image: url('/assets/profile-pic.png');
+  background-image: url('/assets/profile-pic.png') !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
